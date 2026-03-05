@@ -5,13 +5,13 @@ on:
       - opened 
     branches:
       - main # main branch only
-      - 'dev-*' # dev-new
+      - 'dev-*' # dev-new only
       - 'feat/**' # 'feat/new_feat/new/button'
   workflow_dispatch:
   push:
     branches:
-      - main # main
-      - 'dev-*'  # dev-new
+      - main # main branch only
+      - 'dev-*'  # dev-new only
       - 'feat/**' # 'feat/new_feat/new/button'
     paths-ignore:
       - '/.github/workflows/*'
