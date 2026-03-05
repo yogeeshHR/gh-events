@@ -4,15 +4,15 @@ on:
     types:
       - opened 
     branches:
-      - main
-      - 'dev*'
-      - 'feat/**'
+      - main # main
+      - 'dev-*' # dev-new
+      - 'feat/**' # 'feat/new_feat/new/button'
   workflow_dispatch:
   push:
     branches:
-      - main
-      - 'dev*'
-      - 'feat/**'
+      - main # main
+      - 'dev-*'  # dev-new
+      - 'feat/**' # 'feat/new_feat/new/button'
     paths-ignore:
       - '/.github/workflows/*'
 jobs:
