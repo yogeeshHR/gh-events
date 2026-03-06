@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 // New comment added
+// second comment added
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
